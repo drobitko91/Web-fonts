@@ -442,15 +442,6 @@ p span {
     flex-wrap: nowrap;
 }
 
-.eng {
-    font-family: 'Tourney', cursive;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 18px;
-    color: black;    
-}
-
 .item::after {
     content: '/';
     color: #000;
@@ -479,6 +470,16 @@ p span {
 
 .header__logo {
     margin: 0 0 0 auto;
+}
+
+
+.eng {
+    font-family: 'Tourney', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    color: black;    
 }
 
 /* header end */
