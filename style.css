@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap");
+
+
 /* reset css start */
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -22,7 +25,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;
 }
 
@@ -367,7 +370,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* reset css end */
+/* reset css end  */
 
 html {
     box-sizing: border-box;
@@ -384,22 +387,89 @@ html {
 }
 
 h2 {
-    font-family: 'Francois One';
+    font-family: 'Francois One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
+
+h2 > span {
+    font-family: "Farro";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    vertical-align: top;
+}
+
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+p span {
+    background-color: #dadada;
+  }
 
 /* header start */
 
-.header {
+.header__wrapper {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px auto 100px;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.eng {
+    font-family: 'Tourney', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    color: black;
+}
+
+.item::after {
+    content: '/';
+    color: #000;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 10px;
+}
+
+.list__item-link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.list__item-link:hover {
+    opacity: 0.65;
 }
 
 /* header end */
@@ -408,17 +478,12 @@ h2 {
 
 .main__wrapper {
     max-width: 1200px;
-    margin: o auto;
+    margin: 0 auto;
+}
+
+.chapter {
+    margin-bottom: 70px;
 }
 
 /* main end */
 
-sup {
-    vertical-align: super;
-    font-family: 'Farro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-}
