@@ -67,7 +67,7 @@
 
                     <p><strong>+ JSX.</strong> React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so:  <span></span><Text>Hello, I am your cat!</Text></span>.</p>
 
-                    <p>The React docs have a comprehensive guide to JSX you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a <span>name</span> for the cat, name, and embedding it with curly braces inside <span><Text></span></p>
+                    <p>The React docs have <u>a comprehensive guide to JSX</u> you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a <span>name</span> for the cat, name, and embedding it with curly braces inside <span>&lt;Text&gt;</span>.</p>
 
                     <p><strong>+ props.</strong> Props is short for “properties”. </p>
 
@@ -76,10 +76,14 @@
                 <!-- /chepter3 -->
 
                 <div class="chapter">
-                    <h2>core components<span class="sup">Chapter 2</span></h2>
+                    <h2>handling text input<span class="sup">Chapter 4</span></h2>
 
                     <p>
-                        React Native is an open source framework for building Android and iOS applications using React and the app platform’s native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components: <em>bundles of reusable, nestable code</em>. You can learn more about React in the next section. But first, let’s cover how components work in React Native.
+                        TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.
+                    </p>
+
+                    <p>
+                        For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is written the same way: &#127829;. So the sentence "Hello there Bob" would be translated as "&#127829; &#127829;".
                     </p>
                 </div>
                 <!-- /chepter4 -->

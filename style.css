@@ -413,6 +413,7 @@ p {
     font-weight: 400;
     font-size: 28px;
     line-height: 48px;
+    margin-bottom: 40px;
 }
 
 p span {
@@ -424,10 +425,14 @@ p span {
 .header__wrapper {
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin: 20px auto 100px;
 
+}
+
+.header__nav {
+    margin-left: 50px;
 }
 
 .nav__list {
@@ -443,7 +448,7 @@ p span {
     font-weight: 600;
     font-size: 22px;
     line-height: 18px;
-    color: black;
+    color: black;    
 }
 
 .item::after {
@@ -470,6 +475,10 @@ p span {
 
 .list__item-link:hover {
     opacity: 0.65;
+}
+
+.header__logo {
+    margin: 0 0 0 auto;
 }
 
 /* header end */
